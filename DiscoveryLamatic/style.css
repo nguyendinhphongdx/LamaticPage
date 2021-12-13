@@ -1,0 +1,58 @@
+@font-face{
+  src: url(fonts/Cormorant-Regular.ttf);
+  font-family: Cormorant-Regular;
+}
+@font-face{
+  src: url(fonts/Poppins-SemiBold.ttf);
+  font-family: Poppins-SemiBold;
+}
+@font-face{
+  src: url(fonts/Poppins-Regular.ttf);
+  font-family: Poppins-Regular;
+}
+@font-face{
+  src: url(fonts/CormorantSC-Regular.ttf);
+  font-family: CormorantSC-Regular;
+}
+.page-size{width:1180px; margin: 0px auto;}
+
+/* ==========================Header=============================== */
+
+.header-section{margin-bottom: 30px;background:rgba(0,0,0,0.5);}
+.header-logo a img{height: 72px;}
+.header-menu {text-align: center;}
+.header-menu .menu li a{text-decoration: none;margin:25px 15px 10px 25px;color:#ffffff;}
+.header-menu .menu li a:hover{color:#FAD38C; }
+
+.function li a img{width: 25px;height: 25px; margin:10px;}
+
+.icon-top svg{ filL: #fff;transform: scale(0.6);}
+.icon-top:hover svg{filL: #FAD38C}
+
+/* ==========================Discovery=============================== */
+
+.discovery-section{background:url(discovery/packground.png);background-size: 120%;background-repeat: no-repeat;}
+.line{margin-bottom: 70px;margin-top:70px;}
+.line img{width: 25%;display: block; margin-left: auto; margin-right: auto;}
+
+.body1  .texture1 img{margin-top: 5px;height: 50%;}
+.body1 .image img{margin-left:130px;width: 60%;height:60%;padding-top:7px;}
+.body1 .image p{margin-right: 80px; color: #ffffff;}
+
+.body2{margin-bottom:20px;}
+.body2 .image2 img{width: 180px;height: 180px;margin:20px 0px 10px 210px;}
+.body2 .address1 {margin-right:120px;}
+.body2  .texture2 img{margin-bottom: 50px;height: 30%;}
+
+
+/* ==========================Footer=============================== */
+
+.footer-section{background: #000000;}
+.footer-block{font-size: 16px; color: #FAD38C;margin-top:30px;}
+.footer-block a {margin: 20px 0 20px 0;line-height: 22px;}
+.footer-block span {margin-left:7px;}
+.footer-tittle{font-size: 25px;color: #FAD38C;text-transform: uppercase; padding: 30px 0 20px 0;}
+.footer-tittle2{font-size: 18px;color: #FAD38C;text-transform: uppercase; padding: 100px 0 20px 0;}
+
+.footer-block .logo a img {width: 50%;}
+.social-section .socials a img {padding:10px;}
