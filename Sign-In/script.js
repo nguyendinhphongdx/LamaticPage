@@ -17,15 +17,15 @@ function onSubmitSignIn() {
   const password = document.getElementById("password").value;
   const confirm = document.getElementById("confirm").value;
   if (firtName.length < 3 && lastName.length < 3) {
-    alert("Tên không ngắn hơn 3 kí tự");
+    ToastMessage("Tên không ngắn hơn 3 kí tự");
     return;
   }
   if (password.length < 5) {
-    alert("Mật khẩu không ngắn hơn 5 kí tự!");
+    ToastMessage("Mật khẩu không ngắn hơn 5 kí tự!");
     return;
   }
   if (password !== confirm) {
-    alert("Mật khẩu xác nhận không chính xác!");
+    ToastMessage("Mật khẩu xác nhận không chính xác!");
     return;
   }
   const users = localStorage.getItem("users")
