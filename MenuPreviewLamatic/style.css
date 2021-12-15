@@ -30,7 +30,7 @@
 .icon-top:hover svg{filL: #FAD38C}
 
 /* ==========================menu1=============================== */
-.specialmenu-section{background: url('menu1/background.png');background-repeat: no-repeat;}
+.specialmenu-section{background: url('menu1/background.png');    background-position: center;}
 .line{margin-bottom: 70px;margin-top:40px;}
 .line img{width: 30%;display: block; margin-left: auto; margin-right: auto;}
 
