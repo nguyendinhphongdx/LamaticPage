@@ -88,7 +88,7 @@ function onSubmit() {
 }
 function loadMenu() {
  
-    const idMenu = document.getElementById('menu')
+    const idMenu = document.getElementById('starter')
    let textContext = menu.map((item,index)=> `
     <div class="col-md-4 col-sm-6 col-12" style="margin-top:50px;">
        <div class="card">
@@ -121,7 +121,7 @@ function loadMenu() {
              <div class="col"><div class="price"><h5>${item.price}</h5></div></div>
              <div class="col">
                <div class="svg">
-                 <div style="cursor:pointer" onclick="showModal()">
+                 <div style="cursor:pointer" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                  <svg class="svg-icon" style="width: 1.75rem; height: 1.75rem;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
                  <path d ="M336.016 800a80 80 0 1 0-0.048 160 80 80 0 0 0 0.048-160zM832 800c-44.224 0-80 35.808-80 80a80 80 0 1 0 160 0 80 80 0 0 0-80-80zM576 304v96h-96v80h96v96h80v-96h96v-80h-96v-96h-80zM360.128 144l10.736 79.84h542.048c-7.84 48-24.128 154.544-57.936 371.36-5.168 33.104-37.568 60.8-70.72 60.8H425.152c-33.296 0-66.288-27.92-70.592-60.016-51.84-385.712-56.032-417.76-56.16-418.656C287.552 104.992 221.744 48 148.576 48H16
                  v80h132.576c32.8 0 65.84 28.896 70.592 60.624 0 0 4.064 30.752 56.096 417.792 9.6 71.472 76.832 129.584 149.888 129.584h359.104c72.704 0 138.48-56.272 149.76-128.48C1004.8 153.6 997.776 192 1006.416 144H360.128z" fill="#ffffff" /></svg>
@@ -147,11 +147,4 @@ function loadMenu() {
      </div>
   `).join('')
   idMenu.innerHTML = textContext 
-}
-function showModal(){
-  myModal = new bootstrap.Modal(document.getElementById('myModal'), {
-    keyboard: false
-  })
-  console.log("toggle modal");
-  // myModal.toggle();
 }

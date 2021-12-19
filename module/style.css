@@ -5,3 +5,8 @@
 .carousel-control-prev {
     left: -130px !important;
 }
+@media (min-width: 576px)
+.modal-dialog {
+    max-width: 1170px !important;
+    margin: 1.75rem auto;
+}

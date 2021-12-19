@@ -1,0 +1,21 @@
+ @font-face{
+  src: url(fonts/Cormorant-Regular.ttf);
+  font-family: Cormorant-Regular;
+}
+@font-face{
+  src: url(fonts/Poppins-SemiBold.ttf);
+  font-family: Poppins-SemiBold;
+}
+@font-face{
+  src: url(fonts/Poppins-Regular.ttf);
+  font-family: Poppins-Regular;
+}
+@font-face{
+  src: url(fonts/CormorantSC-Regular.ttf);
+  font-family: CormorantSC-Regular;
+}
+.addcard{width: 1160px;margin-left: auto;margin-right: auto;}
+.addcard img{display: block;}
+.total{font-family: Poppins-Regular;display: block;margin-top:-100px;margin-left: 50px;}
+.dish1 span{color:#FAD38C; margin-right: 8px;font-family: Poppins-Regular;}
+.dish1 p{border-radius: 30px;width: 180px;color: #ffffff;padding-left: 10px;background: #B3803F;font-family: Poppins-Regular;}

@@ -141,3 +141,39 @@ input[type=number]::-webkit-outer-spin-button {
 
 .footer-block .logo a img {width: 50%;}
 .social-section .socials a img {padding:10px;}
+.menu.tabs {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: -100px;
+  padding: 0px 20px;
+  width: 100%;
+  margin-left: 0%!important;
+}
+
+.menu.tabs .button {
+  outline: 1px solid #B3803F;
+  border: none !important;
+  width: 150px;
+  height: 60px;
+  border: 2px solid #B3803F;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: none;
+  text-indent: 0px !important;
+}
+
+.menu.tabs .button.active,
+.menu.tabs .button:hover {
+  outline: 4px solid #B3803F;
+}
+.modal.show{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.modal p{
+  color: white;
+}
