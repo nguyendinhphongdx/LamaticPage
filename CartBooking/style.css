@@ -1,0 +1,214 @@
+@font-face {
+  font-family: ppsemibold;
+  src: url(font/Poppins-SemiBold.ttf);
+}
+
+
+@font-face {
+  font-family: scregular;
+  src: url(font/CormorantSC-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family: ppregular;
+  src: url(font/Poppins-Regular.ttf);
+}
+
+
+
+
+
+.page-size{width:1180px; margin: 0px auto;}
+.header-section{margin-bottom: 30px;background:rgba(0,0,0,0.5);}
+.header-logo a img{height:72px ;}
+.header-menu {text-align: center;}
+.header-menu .menu li a{text-decoration: none;margin:25px 15px 10px 25px;color:#ffffff;}
+.header-menu .menu li a:hover{color:#FAD38C; }
+
+.function li a img{width: 25px;height: 25px; margin:10px;}
+
+.icon-top svg{ filL: #fff;transform: scale(0.6);}
+.icon-top:hover svg{filL: #FAD38C}
+
+
+
+.line{margin-bottom: 50px;margin-top:40px; margin-left:-3% }
+.line img{width: 35%;display: block; margin-left: auto; margin-right: auto;}
+.line1 img{display: block; margin-left:155px; margin-right: auto;}
+.line2 img{display: block; margin:40px 0 40px -360px}
+
+.order img{display: block; margin-left:-155px;} 
+.text{font-family: ppsemibold;font-size:24px;color:#FAD38C;margin-left: 20px;margin-bottom: 55px;}
+.text.cash p{font-family: ppsemibold;font-size:24px;color:#FAD38C;}
+.banking{margin:70px 0;}
+
+.infor p{font-family: ppsemibold;font-size:24px;color:#FAD38C;}
+.infor1 p{font-family: ppsemibold;font-size:24px;color:#FAD38C;margin:40px auto 60px auto;}
+.infor2 p{font-family: ppsemibold;font-size:24px;color:#FAD38C;padding-left: 45px;}
+
+.body1{max-width:1020px;margin-left: auto; margin-right: auto;}
+.body2{background: #000000;background-size: 100%;}
+.square1{width:1050px;display: block; margin-left: auto; margin-right: auto;}
+
+.card-img-top{width:250px;height: 250px;}
+.card{border-radius:40px !important;margin:10px;border:3px solid #FAD38C !important;}
+.card img {border-radius: 38px 38px 0 0;}
+
+.card-title1{width: 73px;height: 25px;border: 2px solid #B3803F !important; padding-left: 6px!important;;color:#B3803F;}
+
+.card2{width: 120px;height: 25px;border: 2px solid #B3803F !important; padding: 1px 5px;color:#B3803F;}
+.card-body h6{font-family: Poppins-Regular;}
+.card-body h5{padding-top: 5px;margin-bottom: 10px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;-webkit-line-clamp: 1;font-family: Poppins-SemiBold;}
+.menu button:hover{border: 5px solid #B3803F !important;}
+.price h5{font-family: Poppins-Regular;}
+.svg a svg{filL: #FAD38C}
+.card-body h5:hover{overflow: visible;}
+.svg-icon{padding-bottom:2px;margin-left: 60px;margin-top: 4px;width: 1.75rem; height: 1.75rem;}
+
+.form1{width: 10px;height: 10px;margin-top: 4px;margin-right: 10px;}
+
+
+
+
+
+
+
+
+
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'ppsemibold';
+  padding-top: 15px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  
+  
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'ppsemibold';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 55%;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 10%;
+  background: #B3803F;
+  color: white;
+  font-size: 18px;
+  font-family: 'ppregular';
+  cursor: pointer;
+  
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+
+
+
+
+
+.footer-section{background: #000000;}
+.footer-block{font-size: 16px; color: #FAD38C;margin-top:30px;}
+.footer-block a {margin: 20px 0 20px 0;line-height: 22px;}
+.footer-block span {margin-left:7px;}
+.footer-tittle{font-size: 25px;color: #FAD38C;text-transform: uppercase; padding: 30px 0 20px 0;}
+.footer-tittle2{font-size: 18px;color: #FAD38C;text-transform: uppercase; padding: 100px 0 20px 0;}
+
+.footer-block .logo a img {width: 50%;}
+.social-section .socials a img {padding:10px;}
+
+/* nguyen dinh phong */
+
+.line-img{
+    display: flex;
+    justify-content: center;
+}
+.infor2{
+  display: flex;
+  justify-content: center;
+}
+.row-bank,.bank-item{
+  display: flex;
+  justify-content: center;
+}
+.row-bank a{
+  margin: 0px 20px;
+
+}
+.bank-item{
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+.bank-item p{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  font-size:24px;color:#FAD38C;
+  font-family: ppsemibold;
+}
+.table-product{
+  overflow: hidden;
+  margin: 0 auto;
+}
+.table-product{
+  border: 2px solid #9b742d;
+  border-radius: 30px;
+  width: 80%;
+}
+.table-product .header{
+  background-color: #9b742d;
+ 
+}
+.table-product p{
+  color: white;
+  font-family: ppsemibold;
+  font-size: 30px;
+  margin-bottom: unset;
+}
+.table-product .footer,.table-product .header{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 80px;
+  align-items: center;
+}
+.row-food{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 80px;
+  align-items: center;
+  border-bottom: 2px solid #FAD38C
+}
+.name,.price{
+  color: #FAD38C;
+  font-family: ppsemibold;
+  font-size: 16px;
+  margin-bottom: unset;
+}
+

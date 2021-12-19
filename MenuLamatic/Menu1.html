@@ -21,6 +21,7 @@
     ></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./script.js"></script>
+    <script src="../module/index.js"></script>
   </head>
 
   <body onLoad="loadMenu()">
@@ -446,10 +447,7 @@
         </div>
       </div>
     </div>
-
-    <!-- Modal -->
-
-    <div
+<div 
       class="modal fade"
       id="staticBackdrop"
       data-bs-backdrop="static"
@@ -457,58 +455,47 @@
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
       aria-hidden="true"
-     
     >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content" style="background: url(menu1/texture.png);background-position: unset;
-        background-repeat: round;background-color: black;">
+      <div class="modal-dialog modal-xl" style="min-width: 630px;">
+        <div
+          class="modal-content"
+          style="
+            background: url(menu1/texture.png);
+            background-position: unset;
+            background-repeat: round;
+            background-color: black;
+          "
+        >
           <div class="modal-body">
             <div class="addcard">
               <div class="total">
                 <div class="container">
                   <div class="row">
-                    <div class="col">
+                    <div class="col-2 col-cart">
                       <p>Total : 3.018.200đ</p>
                       <p>Delete all</p>
                     </div>
-                    <div class="col-7" style="margin-left: -15px">
-                      <div class="row">
-                        <div class="col">
+                    <div class="col-cart col-7" id="table-cart" style="display: flex;flex-wrap:wrap">
+                        <div class="dish1">
+                            <p><span>X</span> Truffle soup x1</p>
+                          </div>
                           <div class="dish1">
                             <p><span>X</span> Truffle soup x1</p>
                           </div>
-                        </div>
-                        <div class="col">
                           <div class="dish1">
-                            <p><span>X</span> Onion beef x2</p>
+                            <p><span>X</span> Truffle soup x1</p>
                           </div>
-                        </div>
-                        <div class="col">
                           <div class="dish1">
-                            <p><span>X</span> Food Truck x2</p>
+                            <p><span>X</span> Truffle soup x1</p>
                           </div>
-                        </div>
-                      </div>
-
-                      <div class="row">
-                        <div class="col">
                           <div class="dish1">
-                            <p><span>X</span> Pea Soup x2</p>
+                            <p><span>X</span> Truffle soup x1</p>
                           </div>
-                        </div>
-                        <div class="col">
                           <div class="dish1">
-                            <p><span>X</span> Nicoise plated x4</p>
+                            <p><span>X</span> Truffle soup x1</p>
                           </div>
-                        </div>
-                        <div class="col">
-                          <div class="dish1">
-                            <p><span>X</span> and 6 more</p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    <div class="col" style="margin-left: 20px; margin-top: 5px">
+                    <div class="col-2 col-cart" style="margin-left: 20px; margin-top: 5px">
                       <div class="button">
                         <button
                           onClick=""
@@ -530,18 +517,29 @@
                           ORDER NOW
                         </button>
                       </div>
+                      <div
+                        class=""
+                        style="display: flex; justify-content: center"
+                      >
+                        <p
+                          style="
+                            margin-top: 5px;
+                            padding: 5px 10px;
+                            cursor: pointer;
+                          "
+                          data-bs-dismiss="modal"
+                        >
+                          close
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                </div> -->
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>

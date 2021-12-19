@@ -10,3 +10,6 @@
     max-width: 1170px !important;
     margin: 1.75rem auto;
 }
+.row>*{
+    padding-right: 0;
+}
